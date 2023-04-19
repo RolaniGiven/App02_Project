@@ -8,8 +8,8 @@ import { ProductsComponent } from './products/products.component';
 
 
 const routes: Routes = [
-  { path: '', component: NavbarComponent },
-  { path: 'home', component: HomePageComponent},
+  { path: 'Nav', component: NavbarComponent },
+  { path: '', component: HomePageComponent},//for the navbar you must always active on our page we left this path with empty here
   { path: 'cart', component: CartComponent },
   { path: 'footer', component: FooterComponent },
   { path: 'products', component: ProductsComponent}
